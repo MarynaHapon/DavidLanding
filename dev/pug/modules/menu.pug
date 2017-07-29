@@ -18,6 +18,8 @@
 
         .menu-list-overlay-wrap
             ul.menu-list-overlay
+                li
+                    a(href= nav.logo.link)= nav.logo.title
                 each link, title in nav.pageNav
                     li
                         a(href= link).menu-link= title
