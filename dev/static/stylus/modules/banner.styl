@@ -1,5 +1,5 @@
 .banner
-    background $bg-banner url("../../static/img/content/banner.png") no-repeat right center
+    background $bg-banner url("../../static/img/content/banner.png") no-repeat 45vw center
     min-height 600px
     line-height 1.15
 
@@ -7,7 +7,7 @@
     height 100%
     max-width 500px
     padding 110px 15px 70px
-    
+
     h2
         color $header-banner
 
@@ -24,3 +24,20 @@
 .banner-btn-group
     a:first-child
         margin-right 30px
+
+        
+@media (max-width 540px)
+    .banner-content
+        padding 110px 15px 50px
+
+    .banner-text-group
+        padding 20px 0 50px
+
+
+@media (max-width 490px)
+    .banner-content
+        padding 30px 15px 0px
+
+    .banner-btn-group
+    a:first-child
+        margin-bottom  30px
