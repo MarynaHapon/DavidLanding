@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1acba267-ba1d-44ae-b566-db38fefd4353" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/pug/modules/about.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/static/stylus/modules/about.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/static/css/main.css" afterPath="$PROJECT_DIR$/build/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/content.json" afterPath="$PROJECT_DIR$/data/content.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/modules/banner.pug" afterPath="$PROJECT_DIR$/dev/pug/modules/banner.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/pug/pages/index.pug" afterPath="$PROJECT_DIR$/dev/pug/pages/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/common_styles.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/common_styles.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/main.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/main.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/modules/banner.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/modules/banner.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/modules/menu.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/modules/menu.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/static/stylus/vars.styl" afterPath="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,34 +27,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.47281712">
+    <splitter split-orientation="vertical" split-proportion="0.33443162">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dev/pug/pages/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/static/stylus/main.styl">
+          <file leaf-file-name="banner.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/banner.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="banner.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dev/pug/modules/banner.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -53,18 +53,48 @@
           <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/data/content.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+                <state relative-caret-position="192">
+                  <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/pug/layout/main.pug">
+          <file leaf-file-name="main.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/static/stylus/main.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dev/pug/modules/about.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="menu.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/pug/modules/menu.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="44" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="9" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="banner.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/pug/modules/banner.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -74,41 +104,31 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="vars.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="banner.styl" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/banner.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8">
-                  <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="common_styles.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dev/static/stylus/common_styles.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="178">
-                  <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+                <state relative-caret-position="-34">
+                  <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="menu.styl" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/menu.styl">
+          <file leaf-file-name="vars.styl" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+                <state relative-caret-position="170">
+                  <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="about.styl" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/about.styl">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -128,19 +148,21 @@
         <option value="$PROJECT_DIR$/dev/static/stylus/mixins.styl" />
         <option value="$PROJECT_DIR$/../DevWeb/gulp/tasks/pug.js" />
         <option value="$PROJECT_DIR$/dev/static/js/main.js" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/modules/menu.styl" />
         <option value="$PROJECT_DIR$/data/navigation.json" />
         <option value="$PROJECT_DIR$/dev/pug/modules/menu.pug" />
         <option value="$PROJECT_DIR$/data/banner.json" />
         <option value="$PROJECT_DIR$/gulp/tasks/pug.js" />
-        <option value="$PROJECT_DIR$/dev/pug/pages/index.pug" />
-        <option value="$PROJECT_DIR$/data/content.json" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/common_styles.styl" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
         <option value="$PROJECT_DIR$/dev/pug/layout/main.pug" />
-        <option value="$PROJECT_DIR$/dev/static/stylus/main.styl" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/modules/menu.styl" />
+        <option value="$PROJECT_DIR$/dev/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/vars.styl" />
         <option value="$PROJECT_DIR$/dev/pug/modules/banner.pug" />
         <option value="$PROJECT_DIR$/dev/static/stylus/modules/banner.styl" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/common_styles.styl" />
+        <option value="$PROJECT_DIR$/data/content.json" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/main.styl" />
+        <option value="$PROJECT_DIR$/dev/static/stylus/modules/about.styl" />
+        <option value="$PROJECT_DIR$/dev/pug/modules/about.pug" />
       </list>
     </option>
   </component>
@@ -167,8 +189,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1037" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1139" />
     <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -315,19 +337,19 @@
       <option name="presentableId" value="Default" />
       <updated>1501254115257</updated>
       <workItem from="1501254117309" duration="26489000" />
-      <workItem from="1501310391077" duration="22109000" />
+      <workItem from="1501310391077" duration="26928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48598000" />
+    <option name="totallyTimeSpent" value="53417000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="736" extended-state="6" />
+    <frame x="0" y="0" width="1139" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26232114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297911" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -576,14 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/modules/menu.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/navigation.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -640,26 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/common_styles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -672,58 +670,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/pug/pages/index.pug">
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/menu.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/layout/main.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="199">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/menu.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="9" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/stylus/vars.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/menu.styl">
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/common_styles.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/static/stylus/main.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="-34">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/pug/modules/banner.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/banner.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/main.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/static/stylus/modules/about.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/pug/modules/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>

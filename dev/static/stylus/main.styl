@@ -4,7 +4,8 @@
 @import 'mixins.styl'
 
 html
-	line-height 1
+	line-height 1.15
+	//line-height 1
 	font-size 16px
 
 
@@ -16,6 +17,8 @@ h1,h2,h3,h4,h5,h6
 	margin 0
 	text-transform uppercase
 
+h1
+	font-size 1.5em
 
 ul,li
 	margin 0
@@ -29,6 +32,12 @@ a
 	text-decoration none
 	font-family  Fregat
 	color inherit
+	transition .3s
+
+	&:active
+		opacity 0.6
+		transition .3
+
 
 audio,
 canvas,
@@ -67,6 +76,9 @@ button
 
 // Стили баннера
 @import 'modules/banner.styl'
+
+// Стили блок 'about'
+@import 'modules/about.styl'
 
 // Стили футера
 @import 'modules/footer.styl'
