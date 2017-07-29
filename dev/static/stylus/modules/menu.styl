@@ -1,0 +1,125 @@
+.page-menu
+    min-height 90px
+    display flex
+    justify-content space-between
+    align-items center
+    color $menu-color
+
+    a
+        transition .3s
+
+    a:hover
+        color $menu-color-hover
+
+.logo
+    font-size 3.75em //60px
+    font-weight bold
+    letter-spacing -2px
+
+.menu-list
+    display flex
+    justify-content space-between
+    align-items center
+    text-transform uppercase
+    font-size 0.875em //14px
+    letter-spacing -0.5px
+
+.menu-list
+
+    li::after
+        content '・'
+
+.btn-burger-wrapper
+    display none
+    position(fixed, 30px, 25px)
+    size(34px, 27px)
+    cursor pointer
+    transition .3s
+    z-index 1010
+
+.btn-burger-wrapper.active
+
+    .btn-burger-top
+        transform translateY(11px) translateX(0) rotate(45deg)
+
+    .btn-burger-middle
+        opacity: 0
+
+    .btn-burger-bottom
+        transform translateY(-11px) translateX(0) rotate(-45deg)
+
+.btn-burger-wrapper:hover
+    opacity 0.6
+
+.btn-burger
+    position(absolute, , , , 0px)
+    size(100%, 5px)
+    background-color $bg-btn-burger
+    border none
+    border-radius 10px
+    transition  0.35s
+
+.btn-burger-top
+    top 0
+
+.btn-burger-middle
+    top 11px
+
+.btn-burger-bottom
+    top 22px
+
+.page-menu-overlay
+    position(fixed, 0px, , ,0px)
+    size(100%, 100%)
+    opacity 0
+    visibility hidden
+    overflow auto
+    background $bg-menu-overlay
+    transition .3s
+
+.open
+    display block
+    height 100%
+    opacity 1
+    visibility visible
+    z-index 1000
+
+.menu-list-overlay-wrap
+    position relative
+    top: 50%;
+    size(90%,70%);
+    margin 0 auto
+    transform: translateY(-50%);
+    text-align center
+
+.menu-list-overlay
+    position relative
+    display inline-block
+    height 100%
+
+    li
+        display block
+        height calc(100% / 6)
+        font-size 1.5em //24px
+        color $menu-link-overlay
+
+        a
+            color $menu-link-overlay
+            transition .3s
+
+        a:hover
+            color $menu-link-overlay-hover
+
+    li:first-child
+        font-size 2.5em //40px
+        font-weight bold
+
+@media (max-width: 1200px)
+    .menu-list
+        display none
+    .btn-burger-wrapper
+        display inline-block
+
+@media (min-width: 1200px)
+    .page-menu-overlay
+        display none
