@@ -4,7 +4,6 @@ $('.toggle').click(function() {
     $('#overlay-hidden').toggleClass('hidden-wrap'); // .hidden-wrap --> common_styles.styl
 });
 
-
 // external js: flickity.pkgd.js
 var $carousel = $('.carousel').flickity({
     autoPlay: 3000,
@@ -27,4 +26,8 @@ $carousel.on( 'scroll.flickity', function() {
         var x = ( slide.target + flkty.x );
         img.style[ transformProp ] = 'translateX(' + x  + 'px)';
     });
+});
+
+AOS.init({
+    easing: 'ease-in-out-sine'
 });
