@@ -1,0 +1,60 @@
+.call
+    background-color $bg-call
+
+.call-content
+    margin 0 auto
+    padding 50px 0 60px
+    text-align center
+
+.call-title,
+.call-city-group,
+.btn-call
+    color $header-call
+
+.call-title
+    font-size 24px
+
+.call-text
+    margin 15px 0 0 0
+    color $text-call
+    font-size 17px
+
+.call-city-group
+    display flex
+    flex-direction row
+    justify-content space-around
+    margin 60px auto
+    max-width 900px
+
+.call-city-item
+    width 30%
+
+.call-city
+    font-size 20px
+
+.call-address,
+.call-tel
+    display block
+    font-size 16px
+
+.btn-call
+    font-size 14px
+
+.btn-call
+    border 1px solid $header-call
+    width 270px
+    border-radius 4px
+
+    &:hover
+        background-color $header-call
+        color $bg-call
+
+
+@media (max-width 425px)
+    .call-city
+        font-size 14px
+
+    .call-address,
+    .call-tel
+        display block
+        font-size 12px

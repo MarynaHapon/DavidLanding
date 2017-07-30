@@ -1,0 +1,26 @@
+.wrapper
+    .call
+        .inner
+            .call-content
+
+                h2.call-title= content.callTitle.title
+                p.call-text= content.callTitle.text
+
+                .call-city-group
+
+                    div.call-city-item
+                        p.call-city= content.callCityIvan.title
+                        p.call-address= content.callCityIvan.address
+                        a.call-tel(href= content.callCityIvan.telLink)= content.callCityLviv.tel
+
+                    div.call-city-item
+                        p.call-city= content.callCityKyiv.title
+                        p.call-address= content.callCityKyiv.address
+                        a.call-tel(href= content.callCityKyiv.telLink)= content.callCityLviv.tel
+
+                    div.call-city-item
+                        p.call-city= content.callCityLviv.title
+                        p.call-address= content.callCityLviv.address
+                        a.call-tel(href= content.callCityLviv.telLink)= content.callCityLviv.tel
+
+                a.btn.btn-call(href= content.btnCall.link)= content.btnCall.title
