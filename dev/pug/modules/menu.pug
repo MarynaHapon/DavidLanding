@@ -9,17 +9,18 @@
                     li
                         a(href= link)= title
 
-        a.btn-burger-wrapper#toggle
+        a.btn-burger-wrapper.toggle
             span.btn-burger.btn-burger-top
             span.btn-burger.btn-burger-middle
             span.btn-burger.btn-burger-bottom
 
-    div.page-menu-overlay#overlay
+        div.page-menu-overlay#overlay.toggle
 
-        .menu-list-overlay-wrap
-            ul.menu-list-overlay
-                li
-                    a(href= nav.logo.link)= nav.logo.title
-                each link, title in nav.pageNav
+            .menu-list-overlay-wrap
+                ul.menu-list-overlay
                     li
-                        a(href= link).menu-link= title
+                        a(href= nav.logo.link)= nav.logo.title
+
+                    each link, title in nav.pageNav
+                        li
+                            a(href= link).menu-link= title

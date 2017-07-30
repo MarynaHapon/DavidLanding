@@ -26,6 +26,11 @@
     li::after
         content '・'
 
+    li:last-child
+
+        &:after
+            content ''
+
 .btn-burger-wrapper
     display none
     position(fixed, 30px, 25px)
@@ -72,7 +77,7 @@
     visibility hidden
     overflow auto
     background $bg-menu-overlay
-    transition .3s
+    transition .1s
 
 .open
     display block
@@ -84,7 +89,7 @@
 .menu-list-overlay-wrap
     position relative
     top: 50%;
-    size(90%,70%);
+    size(90%,80%);
     margin 0 auto
     transform: translateY(-50%);
     text-align center
@@ -110,12 +115,16 @@
         font-size 2.5em //40px
         font-weight bold
 
+
 @media (max-width: 1200px)
     .menu-list
         display none
     .btn-burger-wrapper
         display inline-block
 
+
 @media (min-width: 1200px)
     .page-menu-overlay
         display none
+
+

@@ -4,10 +4,10 @@
     "link": "index.html"
   },
   "pageNav": {
-    "Что входит в программу": "index.html#1",
-    "Почему сидеть вредно": "index.html#2",
-    "В каких случаях программа будет полезной": "index.html#3",
-    "Как все происходит": "index.html#4",
-    "Как работает методика DAVID": "index.html#5"
+    "Что входит в программу": "index.html#program-includes",
+    "Почему сидеть вредно": "index.html#harm",
+    "В каких случаях программа будет полезной": "index.html#benefit",
+    "Как все происходит": "index.html#how-is-it-going",
+    "Как работает методика DAVID": "index.html#how-is-it-works"
   }
 }

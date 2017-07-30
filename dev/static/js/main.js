@@ -1,8 +1,9 @@
-$('#toggle').click(function() {
-    $(this).toggleClass('active');
+$('.toggle').click(function() {
+    $('.toggle').toggleClass('active');
     $('#overlay').toggleClass('open');
-    $('#overlay-hidden').toggleClass('hidden-wrap') // .hidden-wrap --> common_styles.styl
+    $('#overlay-hidden').toggleClass('hidden-wrap'); // .hidden-wrap --> common_styles.styl
 });
+
 
 // external js: flickity.pkgd.js
 var $carousel = $('.carousel').flickity({
