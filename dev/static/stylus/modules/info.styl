@@ -66,7 +66,7 @@
 
 .info-progress-bar-group
   display flex
-  align-items center
+  align-items flex-start
   justify-content center
   margin 90px 0 75px
 
@@ -82,10 +82,58 @@
 #infoProgressBar5
   position absolute
   margin-top -30px
-  width 150px
-  height 150px
+  size(150px)
 
 
 @media (max-width 540px)
   .info-description-text
     margin 0 5%
+
+
+@media (max-width 1024px)
+  #infoProgressBar1,
+  #infoProgressBar2,
+  #infoProgressBar3,
+  #infoProgressBar4,
+  #infoProgressBar5
+    position absolute
+    margin-top -30px
+    size(100px)
+
+  .info-progress-bar
+    width 100px
+    margin 0 10px
+
+  .hour-number
+    font-size 30px
+    padding 0
+
+  .descr
+    font-size 12px
+    padding 20px 0 0 0
+
+
+@media (max-width 600px)
+  #infoProgressBar1,
+  #infoProgressBar2,
+  #infoProgressBar3,
+  #infoProgressBar4,
+  #infoProgressBar5
+    position absolute
+    margin-top -15px
+    size(50px)
+
+  .info-progress-bar
+    width 50px
+    margin 0 5px
+
+  .hour-number
+    font-size 20px
+    padding 0
+
+  .hour-title
+    padding 20px 0 0 0
+
+  .descr
+    font-size 10px
+    padding 10px 0 0 0
