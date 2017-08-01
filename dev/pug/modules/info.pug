@@ -1,0 +1,24 @@
+.wrapper
+    .info
+        .inner
+            .info-content
+                h2.info-title= content.infoText.title
+                p.info-text= content.infoText.text
+                p.info-sub-text= content.infoText.subText
+
+                .infoProgressBarGroup
+                    mixin infoProgressBar(hourNumber, hourTitle, descr )
+                        div(class!= attributes.class)
+                            p.hourTitle= hourNumber
+                            p.hourTitle= hourTitle
+                            p.descr= descr
+
+                    +infoProgressBar( content.infoProgressBar1.hourNumber, content.infoProgressBar1.hourTitle, content.infoProgressBar1.descr)(class= infoProgressBar1)
+                    +infoProgressBar( content.infoProgressBar2.hourNumber, content.infoProgressBar2.hourTitle, content.infoProgressBar2.descr)(class= infoProgressBar2)
+                    +infoProgressBar( content.infoProgressBar3.hourNumber, content.infoProgressBar3.hourTitle, content.infoProgressBar3.descr)(class= infoProgressBar3)
+                    +infoProgressBar( content.infoProgressBar4.hourNumber, content.infoProgressBar4.hourTitle, content.infoProgressBar4.descr)(class= infoProgressBar4)
+                    +infoProgressBar( content.infoProgressBar5.hourNumber, content.infoProgressBar5.hourTitle, content.infoProgressBar5.descr)(class= infoProgressBar5)
+
+                p.info-fact= content.infoText.infoFact
+                p.info-description-title= content.infoText.descriptionTitle
+                p.info-description-text= content.infoText.descriptionText
