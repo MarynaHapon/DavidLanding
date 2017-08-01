@@ -79,27 +79,27 @@
   "infoProgressBar1": {
     "hourNumber": "7.5",
     "hourTitle": "часов",
-    "description": "Сидит на работе"
+    "descr": "Сидит на работе"
   },
   "infoProgressBar2": {
     "hourNumber": "1.5",
     "hourTitle": "часа",
-    "description": "Смотрит телевизор"
+    "descr": "Смотрит телевизор"
   },
   "infoProgressBar3": {
     "hourNumber": "1.5",
     "hourTitle": "часа",
-    "description": "Сидит за компьютером"
+    "descr": "Сидит за компьютером"
   },
   "infoProgressBar4": {
     "hourNumber": "3",
     "hourTitle": "часа",
-    "description": "Сидит, принимая пищу"
+    "descr": "Сидит, принимая пищу"
   },
   "infoProgressBar5": {
     "hourNumber": "1.5",
     "hourTitle": "часа",
-    "description": "сидит в транспорте"
+    "descr": "Cидит в транспорте"
   }
 }
 
