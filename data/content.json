@@ -100,7 +100,44 @@
     "hourNumber": "1.5",
     "hourTitle": "часа",
     "descr": "Cидит в транспорте"
+  },
+  "benefit": {
+    "title": "В каких случаях программа будет полезной?",
+    "benefitBtn": "Подробнее >"
+  },
+  "benefitItem1": {
+    "benefitNumber": "1",
+    "benefitTitle": "Боли в пояснице",
+    "benefitText": "Боли в поясничном отделе позвоночника связаны с его перенагрузкой в 80% случаев.  Сидя за компьютером, даже в очень удобном офисном кресле, нагрузка на поясничный отдел практически в 2 раза больше, чем в  положении стоя.",
+    "benefitBtn": "Подробнее >",
+    "benefitImgSrc": "static/img/content/benefit1.jpg",
+    "benefitImgAlt": "benefit img alt"
+  },
+  "benefitItem2": {
+    "benefitNumber": "2",
+    "benefitTitle": "Боли в грудном отделе позвоночника",
+    "benefitText": "Чаще всего дискомфорт в грудном отделе возникает из-за проблем с позвоночником.",
+    "benefitBtn": "Подробнее >",
+    "benefitImgSrc": "static/img/content/benefit2.jpg",
+    "benefitImgAlt": "benefit img alt"
+  },
+  "benefitItem3": {
+    "benefitNumber": "3",
+    "benefitTitle": "Боли в шее и плечах",
+    "benefitText": "Очень часто сидячая работа приводит к болевым ощущениям и дискомфорту  в плечах и шее. Человек, сидя за компьютером, склонив голову, вызывает колоссальное напряжение мышц шеи и воротниковой зоны.",
+    "benefitBtn": "Подробнее >",
+    "benefitImgSrc": "static/img/content/benefit3.jpg",
+    "benefitImgAlt": "benefit img alt"
+  },
+  "benefitItem4": {
+    "benefitNumber": "4",
+    "benefitTitle": "Головные боли",
+    "benefitText": "Более 50% офисных сотрудников испытывают головные боли. Около 90% из них  не в состоянии нормально функционировать при таком состоянии. Основная причина в большинстве случаев – слабые или зажатые мышц шейного отдела позвоночника.",
+    "benefitBtn": "Подробнее >",
+    "benefitImgSrc": "static/img/content/benefit4.jpg",
+    "benefitImgAlt": "benefit img alt"
   }
+
 }
 
 
