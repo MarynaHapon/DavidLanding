@@ -7,18 +7,20 @@
   margin 45px 0 80px
 
 .benefit-item
-  position relative
   flex-direction row
   padding 35px 0
+
 
 .benefit-item-reverse
   flex-direction row-reverse
 
 .benefit-item-inner
+  position relative
   display flex
   flex-direction column
+  align-items flex-start
   margin 0 7%
-  
+  max-width 575px
 
 .benefit-title
   margin 100px 0 0 0
@@ -30,18 +32,24 @@
 .benefit-item-title,
 .benefit-item-text,
 .benefit-button
-  color $text-benefit
+    color $text-benefit
+
+.benefit-item-text
+    max-width 575px
 
 .benefit-item-title
-  font-size 30px
-  margin 130px 0 20px
-  z-index 2
+    font-size 30px
+    margin 130px 0 20px
+    z-index 2
 
 .benefit-item-number
-  position absolute
-  font-size 200px
-  font-weight bold
-  color $number-benefit
+    position absolute
+    top 0
+    font-size 200px
+    font-weight bold
+    color $number-benefit
+
+
 
 .benefit-item-text,
 .benefit-button
@@ -50,8 +58,7 @@
   z-index 2
 
 .benefit-button
-  display block
-  width 200px
+  display inline-block
   border none
   padding 0
   text-align start
