@@ -22,7 +22,7 @@ var flkty = $carousel.data('flickity');
 $carousel.on( 'scroll.flickity', function() {
     flkty.slides.forEach( function( slide, i ) {
         var img = $imgs[i];
-        var x = ( slide.target + flkty.x );
+        var x = ( slide.target + flkty.x )* -1/3;
         img.style[ transformProp ] = 'translateX(' + x  + 'px)';
     });
 });
@@ -40,7 +40,7 @@ var progressBar1 = new ProgressBar.Circle(infoProgressBar1, {
     color: '#4cb027',
     trailColor: '#eee',
     trailWidth: 1,
-    svgStyle: null
+    svgStyle: null,
 });
 progressBar1.animate(0.3125);
 
