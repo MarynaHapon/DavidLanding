@@ -1,0 +1,17 @@
+.wrapper
+    .sheme
+        .inner
+            .sheme-content
+                h2.sheme-title= content.sheme.title
+
+                mixin shemeItem(text, descr, number)
+                    .sheme-item
+                        div
+                            p.sheme-text= text
+                            p.sheme-descr= descr
+                        span.sheme-number= number
+
+                .sheme-list
+                    +shemeItem(content.shemeItem1.text , content.shemeItem1.descr, content.shemeItem1.number)
+                    +shemeItem(content.shemeItem2.text , content.shemeItem2.descr, content.shemeItem2.number)
+                    +shemeItem(content.shemeItem3.text , content.shemeItem3.descr, content.shemeItem3.number)
