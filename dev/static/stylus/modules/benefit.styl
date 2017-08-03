@@ -1,33 +1,34 @@
 .benefit-item,
 .benefit-item-reverse
-  display flex
-  justify-content space-between
+    display flex
+    justify-content space-between
+    padding 35px 0
+
 
 .benefit-item-list
-  margin 45px 0 80px
-
+    margin 45px 0 80px
+    
 .benefit-item
-  flex-direction row
-  padding 35px 0
-
+    flex-direction row
 
 .benefit-item-reverse
-  flex-direction row-reverse
+    flex-direction row-reverse
 
 .benefit-item-inner
-  position relative
-  display flex
-  flex-direction column
-  align-items flex-start
-  margin 0 7%
-  max-width 575px
+    position relative
+    display flex
+    flex-direction column
+    align-items flex-start
+    margin 0 7%
+    max-width 575px
+    min-width 150px
 
 .benefit-title
-  margin 100px 0 0 0
-  color $header-benefit
-  font-size 30px
-  font-weight bold
-  text-align center
+    margin 100px 0 0 0
+    color $header-benefit
+    font-size 30px
+    font-weight bold
+    text-align center
 
 .benefit-item-title,
 .benefit-item-text,
@@ -35,34 +36,55 @@
     color $text-benefit
 
 .benefit-item-text
+    min-width 150px
     max-width 575px
+    width 100%
 
 .benefit-item-title
     font-size 30px
-    margin 130px 0 20px
+    margin 90px 0 20px
     z-index 2
 
 .benefit-item-number
     position absolute
     top 0
     font-size 200px
+    line-height 150px
     font-weight bold
     color $number-benefit
 
-
-
 .benefit-item-text,
 .benefit-button
-  font-size 15px
-  line-height 22.5px
-  z-index 2
+    font-size 15px
+    line-height 22.5px
+    z-index 2
 
 .benefit-button
-  display inline-block
-  border none
-  padding 0
-  text-align start
-  background-color $white
+    display inline-block
+    border none
+    padding 0
+    text-align start
+    background-color $white
 
-.benefit.item-img
-  size(420px)
+.benefit-item-img
+    size(420px)
+
+
+@media (max-width 768px)
+    .benefit-item,
+    .benefit-item-reverse
+        flex-direction column
+
+    .benefit-item-img
+        margin 20px 0 0 auto
+        size(40%)
+        border-radius 50%
+
+
+@media (min-width 768px) and (max-width 1024px)
+    .benefit-item-img
+        size(200px)
+
+    .benefit-item,
+    .benefit-item-reverse
+        align-items flex-end
