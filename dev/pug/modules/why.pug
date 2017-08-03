@@ -1,0 +1,19 @@
+.wrapper
+    .why
+        .inner
+            .why-content
+                h2.why-title= content.why.title
+
+                mixin whyItem(title, text, srcItem, altItem)
+                    .why-item
+                        img(src= srcItem, alt= altItem).why-item-img
+                        div.why-item-all-text
+                            p.why-item-title= title
+                            p.why-item-text= text
+
+
+                .why-list
+                    +whyItem(content.whyItem1.title, content.whyItem1.text, content.whyItem1.src, content.whyItem1.alt)
+                    +whyItem(content.whyItem2.title, content.whyItem2.text, content.whyItem2.src, content.whyItem2.alt)
+                    +whyItem(content.whyItem3.title, content.whyItem3.text, content.whyItem3.src, content.whyItem3.alt)
+                    +whyItem(content.whyItem4.title, content.whyItem4.text, content.whyItem4.src, content.whyItem4.alt)
