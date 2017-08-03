@@ -4,20 +4,22 @@
             .benefit-content
                 h2.benefit-title= content.benefit.title
 
-                mixin benefitItem(benefitTitle, benefitNumber,  benefitText, benefitImgSrc, benefitImgAlt)
+                mixin benefitItem(benefitTitle, benefitNumber,  benefitText, benefitDetails , benefitImgSrc, benefitImgAlt)
                     div(class!= attributes.class)
                         h3.benefit-item-title= benefitTitle
-                        p.benefit-item-number= benefitNumber
+                        p.benefit-item-number(data-aos='fade-right')= benefitNumber
                         p.benefit-item-text= benefitText
-                        button.benefit-button= content.benefit.benefitBtn
-                    img(src= benefitImgSrc, atl= benefitImgAlt).benefit.item-img
+                        .benefit-btn(data-aos='flip-up')= content.benefit.benefitBtn
+                        .benefit-panel
+                            p= benefitDetails
+                    img(src= benefitImgSrc, alt= benefitImgAlt).benefit-item-img
 
                 .benefit-item-list
                     .benefit-item
-                        +benefitItem(content.benefitItem1.benefitTitle, content.benefitItem1.benefitNumber, content.benefitItem1.benefitText, content.benefitItem1.benefitImgSrc, content.benefitItem1.benefitImgAlt)(class="benefit-item-inner")
+                        +benefitItem(content.benefitItem1.benefitTitle, content.benefitItem1.benefitNumber, content.benefitItem1.benefitText, content.benefitItem1.benefitDetails, content.benefitItem1.benefitImgSrc, content.benefitItem1.benefitImgAlt)(class="benefit-item-inner")
                     .benefit-item-reverse
-                        +benefitItem(content.benefitItem2.benefitTitle, content.benefitItem2.benefitNumber, content.benefitItem2.benefitText, content.benefitItem2.benefitImgSrc, content.benefitItem2.benefitImgAlt)(class="benefit-item-inner")
+                        +benefitItem(content.benefitItem2.benefitTitle, content.benefitItem2.benefitNumber, content.benefitItem2.benefitText, content.benefitItem1.benefitDetails, content.benefitItem2.benefitImgSrc, content.benefitItem2.benefitImgAlt)(class="benefit-item-inner")
                     .benefit-item
-                        +benefitItem(content.benefitItem3.benefitTitle, content.benefitItem3.benefitNumber, content.benefitItem3.benefitText, content.benefitItem3.benefitImgSrc, content.benefitItem3.benefitImgAlt)(class="benefit-item-inner")
+                        +benefitItem(content.benefitItem3.benefitTitle, content.benefitItem3.benefitNumber, content.benefitItem3.benefitText, content.benefitItem1.benefitDetails, content.benefitItem3.benefitImgSrc, content.benefitItem3.benefitImgAlt)(class="benefit-item-inner")
                     .benefit-item-reverse
-                        +benefitItem(content.benefitItem4.benefitTitle, content.benefitItem4.benefitNumber, content.benefitItem4.benefitText, content.benefitItem4.benefitImgSrc, content.benefitItem4.benefitImgAlt)(class="benefit-item-inner")
+                        +benefitItem(content.benefitItem4.benefitTitle, content.benefitItem4.benefitNumber, content.benefitItem4.benefitText, content.benefitItem1.benefitDetails, content.benefitItem4.benefitImgSrc, content.benefitItem4.benefitImgAlt)(class="benefit-item-inner")
