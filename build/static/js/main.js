@@ -87,3 +87,21 @@ var progressBar5= new ProgressBar.Circle(infoProgressBar5, {
     svgStyle: null
 });
 progressBar5.animate(0.0625);
+
+    //  benefit panel
+var benefitPanel = document.getElementsByClassName("benefit-btn");
+var i;
+
+for (i = 0; i < benefitPanel.length; i++) {
+    benefitPanel[i].onclick = function(){
+        this.classList.toggle("active");
+
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+
+        } else {
+            panel.style.display = "block";
+        }
+    }
+}

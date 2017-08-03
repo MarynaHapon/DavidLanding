@@ -1,13 +1,12 @@
-.benefit-item,
+.benefit-item
 .benefit-item-reverse
     display flex
     justify-content space-between
-    padding 35px 0
-
+    padding  35px 0
 
 .benefit-item-list
     margin 45px 0 80px
-    
+
 .benefit-item
     flex-direction row
 
@@ -30,9 +29,10 @@
     font-weight bold
     text-align center
 
-.benefit-item-title,
-.benefit-item-text,
-.benefit-button
+.benefit-item-title
+.benefit-item-text
+.benefit-btn
+.benefit-panel
     color $text-benefit
 
 .benefit-item-text
@@ -53,25 +53,32 @@
     font-weight bold
     color $number-benefit
 
-.benefit-item-text,
-.benefit-button
+.benefit-item-text
+.benefit-btn
+.benefit-panel
     font-size 15px
     line-height 22.5px
     z-index 2
 
-.benefit-button
-    display inline-block
-    border none
-    padding 0
-    text-align start
-    background-color $white
-
 .benefit-item-img
     size(420px)
 
+.benefit-btn
+    cursor pointer
+    width 100%
+    text-align start
+    border none
+    outline none
+
+.benefit-panel
+    padding  15px 0 0 0
+    display none
+    max-width 575px
+    min-width 150px
+
 
 @media (max-width 768px)
-    .benefit-item,
+    .benefit-item
     .benefit-item-reverse
         flex-direction column
 
@@ -84,7 +91,3 @@
 @media (min-width 768px) and (max-width 1024px)
     .benefit-item-img
         size(200px)
-
-    .benefit-item,
-    .benefit-item-reverse
-        align-items flex-end
