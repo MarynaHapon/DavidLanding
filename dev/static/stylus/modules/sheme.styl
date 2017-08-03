@@ -1,16 +1,16 @@
 .sheme
     background-color $bg-sheme
-    padding   90px 0
+    padding 90px 0
 
 .sheme-content
     border-bottom 1.5px solid $number-sheme
 
 .sheme-title
     margin 0 0 40px
-    text-align center
-    color $title-sheme
     font-size 30px
     font-weight bold
+    color $title-sheme
+    text-align center
 
 .sheme-text
     font-size 19px
@@ -18,27 +18,25 @@
     color $text-sheme
 
 .sheme-descr
-    margin 15px 0 60px 0
+    margin 10px 0 60px 0
     font-size 16px
     colot $descr-sheme
 
 .sheme-number
     position absolute
     display inline-block
-    //margin 0 auto
-    size(55px)
+    left calc(50% - 27.5px)
     bottom -27.5px
-    left 130px
+    size(55px)
+    line-height 55px
     font-size 27px
     font-weight  bold
-    background-color  $bg-number-sheme
+    text-align center
     color $number-sheme
+    background-color  $bg-number-sheme
     border-radius 100%
     border 1.5px solid $number-sheme
-    line-height 55px
-    text-align center
-
-
+    
 .sheme-list
     display flex
     flex-direction row
@@ -54,3 +52,25 @@
 .sheme-item
     .sheme-number
         margin 0 auto
+
+
+@media (max-width 768px)
+    .sheme-content
+        border-bottom 0
+
+    .sheme-list
+        flex-direction column
+
+    .sheme-item
+        width 100%
+        border-bottom 1.5px solid $number-sheme
+        margin-bottom 60px
+
+    .sheme-number
+        left calc(50% - 27.5px)
+
+
+@media (min-width 768px) and (max-width 1024px)
+    .sheme-text
+    .sheme-descr
+        margin-left 20px
