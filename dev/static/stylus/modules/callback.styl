@@ -56,6 +56,7 @@
         border 1.5px solid $white
         transition .3s
 
+        &:hover
         &:focus
             border 1.5px solid $kelly-green
 
@@ -65,8 +66,14 @@
     max-width 370px
     font-size 18px
     color $white
-    border 0
     background-color $btn-callback
+    border 1.5px solid $kelly-green
+    transition .3s
+
+    &:hover
+        color $kelly-green
+        background-color $white
+        border 1.5px solid $kelly-green
 
 .select
     display inline-block
@@ -120,7 +127,6 @@
         display block
 
 .select-item
-
     span
         display block
         padding 12px
@@ -136,3 +142,16 @@
     &.select-gap
         &:after
           transform rotate(180deg)
+
+
+@media (max-width 375px)
+    .callback-fieldset-item
+        width 300px
+
+@media (max-width 1200px)
+    .callback-fieldset
+        flex-direction column
+
+    .callback-fieldset-item
+        label
+            padding 15px 0 5px 0

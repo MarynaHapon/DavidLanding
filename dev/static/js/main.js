@@ -109,7 +109,7 @@ for (i = 0; i < benefitPanel.length; i++) {
 
     // Select
 $('.select').each(function(){
-   
+
     var $this = $(this),
         selectOption = $this.find('option'),
         selectOptionLength = selectOption.length,
