@@ -105,3 +105,68 @@ for (i = 0; i < benefitPanel.length; i++) {
         }
     }
 }
+
+
+    // Select
+$('.select').each(function(){
+   
+    var $this = $(this),
+        selectOption = $this.find('option'),
+        selectOptionLength = selectOption.length,
+        selectedOption = selectOption.filter(':selected'),
+        dur = 500;
+
+    $this.hide();
+
+    $this.wrap('<div class="select"></div>');
+
+    $('<div>',{
+        class: 'select-gap',
+        text: 'Выберите удобное для вас отделение'
+    }).insertAfter($this);
+
+    var selectGap = $this.next('.select-gap'),
+        caret = selectGap.find('.caret');
+
+    $('<ul>',{
+        class: 'select-list'
+    }).insertAfter(selectGap);
+
+    var selectList = selectGap.next('.select-list');
+
+    for(var i = 0; i < selectOptionLength; i++){
+        $('<li>',{
+            class: 'select-item',
+            html: $('<span>',{
+                text: selectOption.eq(i).text()
+            })
+        })
+            .attr('data-value', selectOption.eq(i).val())
+            .appendTo(selectList);
+    }
+
+    var selectItem = selectList.find('li');
+
+    selectList.slideUp(0);
+    selectGap.on('click', function(){
+        if(!$(this).hasClass('on')){
+            $(this).addClass('on');
+            selectList.slideDown(dur);
+
+            selectItem.on('click', function(){
+                var chooseItem = $(this).data('value');
+
+                $('select').val(chooseItem).attr('selected', 'selected');
+                selectGap.text($(this).find('span').text());
+
+                selectList.slideUp(dur);
+                selectGap.removeClass('on');
+            });
+
+        } else {
+            $(this).removeClass('on');
+            selectList.slideUp(dur);
+        }
+    });
+
+});

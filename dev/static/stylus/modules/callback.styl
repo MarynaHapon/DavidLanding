@@ -38,21 +38,101 @@
     flex-direction column
     width 370px
 
+    select
+    label
+        color $text-input
+
     label
         padding 0 0 10px 0
         font-size 15px
-        color #58595b
 
     input
+    select
         padding 12px
         border-radius 4px
         border 0
+
+    input
+        border 1.5px solid $white
+        transition .3s
+
+        &:focus
+            border 1.5px solid $kelly-green
 
 .btn-callback
     margin 0 auto
     width 100%
     max-width 370px
     font-size 18px
-    color white
+    color $white
     border 0
-    background-color  $btn-callback
+    background-color $btn-callback
+
+.select
+    display inline-block
+    max-width 370px
+    width 100%
+
+.select-wrap
+    max-width 700px
+    width 100%
+    margin 20px auto
+
+    select
+        margin 20px
+
+.select-gap
+    border-radius 4px
+    color $text-select
+    font-size 15px
+    padding 12px
+    cursor pointer
+    background-color $bg-select
+    position relative
+    border 1.5px solid $white
+    transition .3s
+
+    &:after
+        content ''
+        display block
+        size(10px)
+        position(absolute, 50%, 15px, , )
+        margin-top -7px
+        border-left 7px solid transparent
+        border-right 7px solid transparent
+        border-top 14px solid $kelly-green
+        transition all .27s ease-in-out
+        transform rotate(0deg)
+
+.on.select-gap,
+.select-gap:hover
+    color $kelly-green
+    border 1.5px solid $border-select
+
+.select-list
+    transition .3s
+    background $bg-select
+    border 1.5px solid $border-select
+    margin 3px 0 0
+    border-radius 4px
+
+    &.on
+        display block
+
+.select-item
+
+    span
+        display block
+        padding 12px
+        cursor pointer
+        color $text-select
+
+.select-item.selected,
+.select-item span:hover
+    color $text-hover-select
+    background-color $bg-hover-select
+
+.on
+    &.select-gap
+        &:after
+          transform rotate(180deg)
