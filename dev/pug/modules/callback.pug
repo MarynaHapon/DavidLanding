@@ -1,0 +1,44 @@
+.wrapper
+    .callback
+        .inner
+            .callback-content
+                h2.callback-title= content.callback.title
+                p.callback-sub-title= content.callback.subTitle
+
+                mixin cityItem(title, address, tel, telLink)
+                    div.call-city-item
+                        p.call-city= title
+                        p.call-address= address
+                        a.call-tel(href= telLink)= tel
+
+                .call-city-group
+                    +cityItem(content.callCityIvan.title, content.callCityIvan.address, content.callCityIvan.tel, content.callCityIvan.telLink)
+                    +cityItem(content.callCityKyiv.title, content.callCityKyiv.address, content.callCityKyiv.tel, content.callCityKyiv.telLink)
+                    +cityItem(content.callCityLviv.title, content.callCityLviv.address, content.callCityLviv.tel, content.callCityLviv.telLink)
+
+                p.callback-form-title= content.callback.formTitle
+
+                form(name='callback', enctype='text/plain', autocomplete='on').callback-form
+                    .callback-fieldset
+
+
+                            mixin option(optionValue, optionName)
+                                option(value= optionValue)= optionName
+
+
+                            div.callback-fieldset-item
+                                label= content.office.label
+                                select.callback-input
+                                    each optionValue in content.office.option
+                                        +option(optionValue, optionValue)
+
+                            div.callback-fieldset-item
+                                label= content.name.label
+                                input(type='text', placeholder= content.name.placeholder).callback-input
+
+                            div.callback-fieldset-item
+                                label= content.tel.label
+                                input(type='text', placeholder= content.tel.placeholder).callback-input
+
+                    button(type='submit').btn.btn-callback= content.callback.btn
+
