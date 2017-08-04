@@ -6,7 +6,7 @@
 
                 mixin whyItem(title, text, srcItem, altItem)
                     .why-item
-                        img(src= srcItem, alt= altItem).why-item-img(data-aos='flip-up')
+                        img(src= srcItem, alt= altItem).why-item-img.aos-item.aos-init(data-aos='flip-up')
                         .why-item-all-text
                             p.why-item-title= title
                             p.why-item-text= text
